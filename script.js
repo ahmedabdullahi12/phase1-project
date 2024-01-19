@@ -60,7 +60,7 @@ function displayMenuDetails(menuItem) {
                     qnty: updatedItem.qnty
                 })
             }).then(() => {
-                // Update the displayed quantity without reloading the page
+                
                 const quantitySpan = document.getElementById("quantity");
                 quantitySpan.textContent = updatedItem.qnty;
             });
