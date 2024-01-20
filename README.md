@@ -7,6 +7,8 @@ A simple web application for displaying a restaurant menu with features like ite
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
@@ -19,14 +21,32 @@ This project provides a straightforward interface to showcase a restaurant menu.
 
 ## Getting Started
 
+### Prerequisites
+
+- Node.js installed
+- npm (Node Package Manager) installed
+
+### Installation
+
 1. **Clone the repository:**
 
    ```bash
    git clone <repository-url>
    ```
 
+2. **Install Dependencies:**
 
-2. **Open the Application:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the JSON Server:**
+
+   ```bash
+   npx json-server db.json
+   ```
+
+4. **Open the Application:**
 
    Open the `index.html` file in your preferred web browser.
 
@@ -58,10 +78,7 @@ This project provides a straightforward interface to showcase a restaurant menu.
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-Make sure to replace `<repository-url>` with the actual URL of your repository. Adjust the sections and content based on your project's specifics.
